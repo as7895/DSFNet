@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "train.py", line 243, in <module>
+    amp=args.amp
+  File "train.py", line 72, in train_model
+    ''')
+NameError: name 'n_train' is not defined
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 245, in <module>
+    except torch.cuda.OutOfMemoryError:
+AttributeError: module 'torch.cuda' has no attribute 'OutOfMemoryError'
